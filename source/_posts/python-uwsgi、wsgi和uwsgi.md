@@ -8,7 +8,7 @@ categories:
 date: 2019-07-18 11:59:08
 ---
 
-### 我们在理解了PHP的运行方式和**php-fpm、fastcgi、cgi**等这些概念之后，在学习python时也会想起，Python作为和PHP一样的不需要编译的**动态解释型语言**在工作时的方式，是不是有类似于和PHP那些软件和协议呢！下面内容来学习一下Python中的uWSGI、WSGI和uwsgi。
+我们在理解了PHP的运行方式和**php-fpm、fastcgi、cgi**等这些概念之后，在学习python时也会想起，Python作为和PHP一样的不需要编译的**动态解释型语言**在工作时的方式，是不是有类似于和PHP那些软件和协议呢！下面内容来学习一下Python中的uWSGI、WSGI和uwsgi。
 
 **首先来看几张图片：** ![](https://blog.wenboo.top/wp-content/uploads/2019/07/cd4b873f4d5447c91bd4d97d10f28b0d.png) ![](https://blog.wenboo.top/wp-content/uploads/2019/07/967ecfd077e1c4077f8b210de5da49ea.png) 图片来自：[https://www.cnblogs.com/wspblog/p/8575101.html](https://www.cnblogs.com/wspblog/p/8575101.html "https://www.cnblogs.com/wspblog/p/8575101.html")
 
