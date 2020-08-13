@@ -27,7 +27,7 @@ highlight: # 代码高亮
 
 fun_features: # 一些好玩的功能
   typing: # 为 subtitle 添加打字机效果
-    enable: true
+    enable: false
     typeSpeed: 70  # 打印速度，数字越大越慢
     cursorChar: "_" # 游标字符
     loop: false # 是否循环播放效果
@@ -158,12 +158,12 @@ scroll_top_arrow:  # 向顶部滚动的箭头
 # Index Page
 #---------------------------
 index:
-  banner_img: /img/Chair.png  # 首页 Banner 头图，以下相同
+  banner_img: /img/canva.png  # 首页 Banner 头图，以下相同
   banner_img_height: 100  # 头图高度，屏幕百分比，available: 0 - 100
   banner_mask_alpha: 0.3  # 头图黑色蒙版的透明度，available: 0 - 1.0， 0 是完全透明（无蒙版），1 是完全不透明
   post_default_img: '' # 默认的文章封面图，当没有指定 index_img 时会使用该图片，若都为空则不显示任何图片
   slogan:  # 首页副标题的独立设置
-    enable: true  # 为 false 则不显示任何内容
+    enable: false  # 为 false 则不显示任何内容
     text: 'An elegant Material-Design theme for Hexo'  # 为空则按 hexo config.subtitle 显示
   auto_excerpt:
     enable: true
@@ -176,7 +176,7 @@ index:
 # 通过 hexo new page 命令创建的页面
 # Custom Page
 page:
-  banner_img: /img/canva.png
+  banner_img: /img/Chair.png
   banner_img_height: 60  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
 
