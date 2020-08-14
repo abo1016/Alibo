@@ -1,9 +1,8 @@
 ---
 title: HTTP/2
-tags: []
+tags: [HTTP2]
 id: '405'
 categories:
-  - - all-blog
     - 网络
 date: 2019-03-06 10:53:35
 ---

@@ -1,9 +1,8 @@
 ---
 title: PHP 的几种异步执行方式
-tags: []
+tags: [异步]
 id: '275'
 categories:
-  - - all-blog
     - PHP
 date: 2018-08-07 13:39:51
 ---

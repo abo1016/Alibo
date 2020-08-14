@@ -1,9 +1,8 @@
 ---
 title: php中最常用的系统常量
-tags: []
+tags: [php内置常量]
 id: '315'
 categories:
-  - - all-blog
     - PHP
 date: 2018-09-28 11:44:11
 ---

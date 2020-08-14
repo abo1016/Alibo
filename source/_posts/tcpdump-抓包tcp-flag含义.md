@@ -1,9 +1,8 @@
 ---
 title: tcpdump 抓包tcp flag含义
-tags: []
+tags: [tcpdump, 抓包]
 id: '86'
 categories:
-  - - all-blog
     - 网络
 date: 2018-05-25 17:12:13
 ---

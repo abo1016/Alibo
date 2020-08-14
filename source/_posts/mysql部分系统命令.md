@@ -1,9 +1,8 @@
 ---
 title: mysql部分系统命令
-tags: []
+tags: [mysql, 命令]
 id: '104'
 categories:
-  - - all-blog
     - mysql
 date: 2018-05-25 23:47:31
 ---

@@ -1,9 +1,8 @@
 ---
 title: tomcat部署war
-tags: []
+tags: [tomcat, war]
 id: '341'
 categories:
-  - - all-blog
     - java
 date: 2018-11-16 18:07:55
 ---

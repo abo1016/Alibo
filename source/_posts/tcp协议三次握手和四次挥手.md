@@ -1,9 +1,8 @@
 ---
 title: TCP协议三次握手和四次挥手
-tags: []
+tags: [tcp, 三次握手]
 id: '430'
 categories:
-  - - all-blog
     - 网络
 date: 2019-04-08 11:09:38
 ---

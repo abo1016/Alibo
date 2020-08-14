@@ -1,9 +1,8 @@
 ---
 title: python  uWSGI、WSGI和uwsgi
-tags: []
+tags: [python, uWSGI, WSGI, uwsgi]
 id: '482'
 categories:
-  - - all-blog
     - python
 date: 2019-07-18 11:59:08
 ---

@@ -1,9 +1,9 @@
 ---
 title: 一个好用的免费DDNS
-tags: []
+tags: [DDns]
 id: '368'
 categories:
-  - - uncategorized
+  - - DDNS
 date: 2019-01-12 16:47:51
 ---
 

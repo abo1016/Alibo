@@ -1,9 +1,8 @@
 ---
 title: php socket C/S IO阻塞方式
-tags: []
+tags: [php socket, socket,I/O]
 id: '390'
 categories:
-  - - all-blog
     - PHP
 date: 2019-02-16 13:59:54
 ---

@@ -1,10 +1,9 @@
 ---
 title: 初识 swoole
-tags: []
+tags: [swoole]
 id: '1'
 categories:
-  - - php
-    - swoole
+    - PHP
 date: 2018-04-10 22:48:55
 ---
 

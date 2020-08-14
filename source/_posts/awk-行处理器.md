@@ -1,9 +1,8 @@
 ---
 title: awk 行处理器
-tags: []
+tags: [awk, 命令行, linux]
 id: '216'
 categories:
-  - - all-blog
     - linux
     - shell
 date: 2018-07-10 16:45:17

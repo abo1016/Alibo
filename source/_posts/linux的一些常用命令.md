@@ -1,9 +1,8 @@
 ---
 title: linux的一些常用命令
-tags: []
+tags: [linux, 命令]
 id: '35'
 categories:
-  - - all-blog
     - linux
 date: 2018-05-11 11:43:14
 ---

@@ -1,9 +1,8 @@
 ---
 title: 关闭VirtualBox虚拟机的时钟同步
-tags: []
+tags: [虚拟机, VirtualBox]
 id: '298'
 categories:
-  - - all-blog
     - vagrant
 date: 2018-09-05 17:16:23
 ---

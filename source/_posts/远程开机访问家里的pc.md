@@ -1,9 +1,8 @@
 ---
 title: 远程开机&访问家里的PC
-tags: []
+tags: [远程, pc]
 id: '365'
 categories:
-  - - all-blog
     - 网络
 date: 2018-12-27 10:19:44
 ---

@@ -1,9 +1,8 @@
 ---
 title: JWT
-tags: []
+tags: [jwt]
 id: '338'
 categories:
-  - - all-blog
     - 网络
 date: 2018-11-15 14:19:34
 ---

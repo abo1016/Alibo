@@ -1,9 +1,8 @@
 ---
 title: linux cpu占用率监控脚本
-tags: []
+tags: [linux脚本]
 id: '290'
 categories:
-  - - all-blog
     - linux
     - shell
 date: 2018-08-29 17:51:30

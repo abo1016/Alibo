@@ -1,9 +1,8 @@
 ---
 title: select、poll、epoll
-tags: []
+tags: [多路复用模型]
 id: '460'
 categories:
-  - - all-blog
     - linux
 date: 2019-06-14 11:48:05
 ---

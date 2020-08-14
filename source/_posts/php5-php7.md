@@ -1,9 +1,8 @@
 ---
 title: php5 -php7
-tags: []
+tags: [php版本]
 id: '421'
 categories:
-  - - all-blog
     - PHP
 date: 2019-04-04 16:34:55
 ---

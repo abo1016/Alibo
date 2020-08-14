@@ -1,9 +1,9 @@
 ---
 title: 阿里云SLB + workerman 分布式部署
-tags: []
+tags: [workerman, slb, 阿里云]
+
 id: '32'
 categories:
-  - - all-blog
     - nginx
 date: 2018-05-11 10:47:38
 ---

@@ -1,9 +1,8 @@
 ---
 title: vagrant常用命令
-tags: []
+tags: [vagrant]
 id: '20'
 categories:
-  - - all-blog
     - vagrant
 date: 2018-04-26 14:52:51
 ---

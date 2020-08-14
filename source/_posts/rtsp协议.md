@@ -1,9 +1,8 @@
 ---
 title: RTSP协议
-tags: []
+tags: [rtsp]
 id: '436'
 categories:
-  - - all-blog
     - 网络
 date: 2019-05-13 21:53:14
 ---

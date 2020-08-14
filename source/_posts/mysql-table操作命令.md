@@ -1,9 +1,8 @@
 ---
 title: mysql table操作命令
-tags: []
+tags: [mysql命令]
 id: '106'
 categories:
-  - - all-blog
     - mysql
 date: 2018-05-25 23:49:19
 ---

@@ -1,9 +1,8 @@
 ---
 title: workerman压力测试
-tags: []
+tags: [workerman, 压力测试]
 id: '213'
 categories:
-  - - all-blog
     - PHP
 date: 2018-07-10 11:29:47
 ---

@@ -1,9 +1,8 @@
 ---
 title: php细节问题  int 0  和 空的区别判断
-tags: []
+tags: [php, 空]
 id: '266'
 categories:
-  - - all-blog
     - PHP
 date: 2018-07-26 11:52:56
 ---

@@ -1,9 +1,9 @@
 ---
 title: Kafka入门教程（一）
-tags: []
+tags: [kafa]
 id: '374'
 categories:
-  - - 全部
+  - 消息队列
 date: 2019-01-24 14:50:06
 ---
 

@@ -1,9 +1,8 @@
 ---
 title: workerman 调试busy进程
-tags: []
+tags: [workerman, 调试]
 id: '288'
 categories:
-  - - all-blog
     - PHP
 date: 2018-08-29 17:18:11
 ---

@@ -1,9 +1,8 @@
 ---
 title: linux 修改时区和时间
-tags: []
+tags: [修改时区时间]
 id: '300'
 categories:
-  - - all-blog
     - linux
 date: 2018-09-06 09:19:08
 ---

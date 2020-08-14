@@ -1,9 +1,8 @@
 ---
 title: http1.0、http1.1、http2.0
-tags: []
+tags: [HTTP版本对比]
 id: '433'
 categories:
-  - - all-blog
     - 网络
 date: 2019-05-08 14:36:47
 ---

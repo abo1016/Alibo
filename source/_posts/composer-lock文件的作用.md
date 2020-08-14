@@ -1,9 +1,8 @@
 ---
 title: composer.lock文件的作用
-tags: []
+tags: [composer]
 id: '409'
 categories:
-  - - all-blog
     - PHP
 date: 2019-03-12 22:27:47
 ---

@@ -1,9 +1,8 @@
 ---
 title: golang基础  流程控制中一些有趣的特性
-tags: []
+tags: [golang基础]
 id: '347'
 categories:
-  - - all-blog
     - Golang
 date: 2018-12-04 16:08:57
 ---

@@ -1,9 +1,8 @@
 ---
 title: 别再使用古老的top了  用htop吧！
-tags: []
+tags: [top, Htop]
 id: '219'
 categories:
-  - - all-blog
     - linux
 date: 2018-07-11 17:34:35
 ---

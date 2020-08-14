@@ -1,10 +1,9 @@
 ---
 title: swoole入门-- Echo服务器
-tags: []
+tags: [swoole]
 id: '182'
 categories:
-  - - php
-    - swoole
+  - PHP
 date: 2018-06-22 09:27:34
 ---
 

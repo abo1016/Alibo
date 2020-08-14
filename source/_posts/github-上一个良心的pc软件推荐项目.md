@@ -1,9 +1,9 @@
 ---
 title: github 上一个良心的PC软件推荐项目
-tags: []
+tags: [Github, awesome, 项目推荐]
 id: '317'
 categories:
-  - - uncategorized
+  - gihub
 date: 2018-09-28 17:49:36
 ---
 

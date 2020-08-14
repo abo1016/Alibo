@@ -1,9 +1,8 @@
 ---
 title: Redis 应用-限流
-tags: []
+tags: [redis, 限流算法]
 id: '467'
 categories:
-  - - all-blog
     - 算法
 date: 2019-07-16 15:47:32
 ---

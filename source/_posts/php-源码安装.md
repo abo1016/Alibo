@@ -1,9 +1,8 @@
 ---
 title: php 源码安装
-tags: []
+tags: [编译安装]
 id: '75'
 categories:
-  - - all-blog
     - linux
 date: 2018-05-19 11:21:50
 ---

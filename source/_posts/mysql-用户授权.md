@@ -1,9 +1,8 @@
 ---
 title: mysql 用户授权
-tags: []
+tags: [mysql, 权限]
 id: '210'
 categories:
-  - - all-blog
     - mysql
 date: 2018-07-02 14:47:18
 ---

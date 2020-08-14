@@ -1,9 +1,8 @@
 ---
 title: DuerOS 开放平台
-tags: []
+tags: [dueros, 文档]
 id: '264'
 categories:
-  - - all-blog
     - 智能语音
 date: 2018-07-25 10:41:46
 ---

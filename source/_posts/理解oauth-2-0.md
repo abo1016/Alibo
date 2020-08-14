@@ -1,9 +1,8 @@
 ---
 title: 理解OAuth 2.0
-tags: []
+tags: [Oauth2.0]
 id: '270'
 categories:
-  - - all-blog
     - 网络
 date: 2018-07-27 16:16:58
 ---

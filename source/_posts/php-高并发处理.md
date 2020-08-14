@@ -1,9 +1,8 @@
 ---
 title: php 高并发处理
-tags: []
+tags: [高并发]
 id: '400'
 categories:
-  - - all-blog
     - PHP
 date: 2019-02-26 10:44:43
 ---

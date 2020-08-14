@@ -1,9 +1,8 @@
 ---
 title: 阿里云ecs跨账号、跨区域通信
-tags: []
+tags: [阿里云, ecs]
 id: '124'
 categories:
-  - - all-blog
     - 云主机
 date: 2018-05-29 17:54:51
 ---

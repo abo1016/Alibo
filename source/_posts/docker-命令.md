@@ -1,10 +1,9 @@
 ---
 title: docker 命令
-tags: []
+tags: [docker]
 id: '395'
 categories:
-  - - all-blog
-    - linux
+    - docker
 date: 2019-02-20 17:27:46
 ---
 

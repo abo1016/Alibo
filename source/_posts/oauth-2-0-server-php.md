@@ -1,9 +1,8 @@
 ---
 title: OAuth 2.0 Server  PHP
-tags: []
+tags: [oauth2.0]
 id: '279'
 categories:
-  - - all-blog
     - PHP
 date: 2018-08-15 18:15:45
 ---

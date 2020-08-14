@@ -1,9 +1,8 @@
 ---
 title: mysql 源码安装
-tags: []
+tags: [mysql, 编译安装, 源码安装]
 id: '77'
 categories:
-  - - all-blog
     - linux
 date: 2018-05-19 11:23:17
 ---

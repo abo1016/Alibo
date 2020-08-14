@@ -1,9 +1,8 @@
 ---
 title: golang main函数引入包初始化流程
-tags: []
+tags: [golang, 函数, init]
 id: '349'
 categories:
-  - - all-blog
     - Golang
 date: 2018-12-04 16:25:03
 ---

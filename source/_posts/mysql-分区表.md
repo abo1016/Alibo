@@ -1,9 +1,8 @@
 ---
 title: mysql 分区表
-tags: []
+tags: [分区表]
 id: '199'
 categories:
-  - - all-blog
     - mysql
 date: 2018-06-27 15:13:08
 ---

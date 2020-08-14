@@ -1,9 +1,8 @@
 ---
 title: 批量查询IP地址归属地 脚本
-tags: []
+tags: [批量ip, 脚本]
 id: '345'
 categories:
-  - - all-blog
     - linux
     - shell
 date: 2018-12-03 11:16:03

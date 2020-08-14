@@ -1,9 +1,9 @@
 ---
 title: CGI、FastCGI和PHP-FPM关系图解
-tags: []
+tags: [fastcgi, php-fpm]
+index_img: /post_img/cgi.png
 id: '480'
 categories:
-  - - all-blog
     - PHP
 date: 2019-07-18 11:18:49
 ---

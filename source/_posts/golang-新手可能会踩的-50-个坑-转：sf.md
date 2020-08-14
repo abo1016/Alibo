@@ -1,9 +1,8 @@
 ---
 title: Golang 新手可能会踩的 50 个坑  转：sf
-tags: []
+tags: [踩坑, Golang, 入门, 新手]
 id: '330'
 categories:
-  - - all-blog
     - Golang
 date: 2018-10-26 17:37:53
 ---

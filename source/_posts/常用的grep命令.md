@@ -1,9 +1,8 @@
 ---
 title: 常用的grep命令
-tags: []
+tags: [grep]
 id: '50'
 categories:
-  - - all-blog
     - linux
     - shell
 date: 2018-05-15 09:53:37

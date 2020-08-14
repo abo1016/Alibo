@@ -1,9 +1,8 @@
 ---
 title: CGI、FastCGI、PHP-FPM
-tags: []
+tags: [CGI, FastCGI, PHP-FPM]
 id: '228'
 categories:
-  - - all-blog
     - PHP
 date: 2018-07-12 15:36:11
 ---

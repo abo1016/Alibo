@@ -1,9 +1,8 @@
 ---
 title: apache 源码安装
-tags: []
+tags: [apache, 编译安装, 源码安装]
 id: '73'
 categories:
-  - - all-blog
     - linux
 date: 2018-05-19 11:20:13
 ---

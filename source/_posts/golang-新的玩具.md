@@ -1,9 +1,8 @@
 ---
 title: Golang --新的玩具
-tags: []
+tags: [Golang, 入门, 玩具]
 id: '140'
 categories:
-  - - all-blog
     - Golang
 date: 2018-06-20 16:45:43
 ---

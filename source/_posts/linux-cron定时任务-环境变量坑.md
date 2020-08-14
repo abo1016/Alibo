@@ -1,9 +1,8 @@
 ---
 title: linux cron定时任务 环境变量坑
-tags: []
+tags: [crontab]
 id: '371'
 categories:
-  - - all-blog
     - linux
     - shell
 date: 2019-01-12 17:06:53

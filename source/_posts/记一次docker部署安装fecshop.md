@@ -1,9 +1,9 @@
 ---
 title: 记一次docker部署安装fecshop
-tags: []
+tags: [docker, fecshop]
 id: '361'
 categories:
-  - - uncategorized
+  - docker
 date: 2018-12-21 18:28:34
 ---
 
