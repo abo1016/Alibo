@@ -1,0 +1,20 @@
+.responsive-meting {
+  overflow: hidden;
+  padding-bottom: 62.5%;
+  position: relative;
+  height: 0;
+}
+.responsive-meting iframe {
+  left: 0;
+  top: 0;
+  height: 70%;
+  width: 100%;
+  position: absolute;
+  border:none;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .responsive-meting {
+    padding-bottom: 138.5%; 
+  } 
+}
