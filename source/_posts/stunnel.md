@@ -13,9 +13,10 @@ date: 2019-05-23 11:01:26
 
 > 先看效果
 
-<video type='video/mp4' controls='controls'  width='880' height='480'>
+<video type='video/mp4' controls='controls'  width='50%' height='20%'>
 	<source src="/video/Stunnel.mp4">
 </video>
+
  为了满足Amazon的条件，最后一步需要给RTSP通过CA证书的加密。RTSP不同于HTTP协议，无法通过nginx或者Apache等软件方便的引入cert和key进行ssl加密，我这次选择的是**Stunnel**
 
 > Stunnel是一个自由的跨平台软件，用于提供全局的TLS/SSL服务。针对本身无法进行TLS或SSL通信的客户端及服务器，Stunnel可提供安全的加密连接。该软件可在许多操作系统下运行，包括Unix-like系统，以及Windows。Stunnel依赖于某个独立的库，如OpenSSL或者SSLeay，以实现TLS或SSL协议
