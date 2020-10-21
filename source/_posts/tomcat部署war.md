@@ -4,7 +4,7 @@ tags: [tomcat, war]
 id: '341'
 categories:
     - java
-date: 2018-11-16 18:07:55
+date: 2019-11-16 18:07:55
 ---
 
 最近做Google assistant actions中的Implement Report State api 调试工具（[github](https://github.com/actions-on-google/smart-home-dashboard "github")）官方只给了java环境的tool,记录一下搭建java web环境。

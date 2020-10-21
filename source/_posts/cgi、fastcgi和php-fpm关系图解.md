@@ -79,4 +79,6 @@ FastCGI与CGI特点：
 
 ## 总结
 
-最后，我们来总结一下，这些技术经过不断的升级，可以解决什么问题（不然也不会升级嘛）。 [![](https://www.awaimai.com/wp-content/uploads/2018/03/update.png)](https://www.awaimai.com/wp-content/uploads/2018/03/update.png) 所以，如果要搭建一个高性能的PHP WEB服务器，目前最佳的方式是**Apache/Nginx** + **FastCGI** + **PHP-FPM(+PHP-CGI)**方式了，不要再使用 Module加载或者 CGI 方式啦：） 文章转自：[歪麦博客 https://www.awaimai.com/371.html](https://www.awaimai.com/371.html "歪麦博客 https://www.awaimai.com/371.html")
+最后，我们来总结一下，这些技术经过不断的升级，可以解决什么问题（不然也不会升级嘛）。 [![](https://www.awaimai.com/wp-content/uploads/2018/03/update.png)](https://www.awaimai.com/wp-content/uploads/2018/03/update.png) 所以，如果要搭建一个高性能的PHP WEB服务器，目前最佳的方式是**Apache/Nginx** + **FastCGI** + **PHP-FPM(+PHP-CGI)**方式了，不要再使用 Module加载或者 CGI 方式啦：） 
+
+文章转自：[歪麦博客 https://www.awaimai.com/371.html](https://www.awaimai.com/371.html "歪麦博客 https://www.awaimai.com/371.html")

@@ -16,7 +16,7 @@ date: 2018-05-31 17:55:11
 3.  CA(Certificate Authorities)机构。Https证书签发和管理机构，比如Symantec、Comodo、GoDaddy、GlobalSign。
 
 下图里我画出了这几个角色：  
-![](/wp-content/uploads/2018/05/20180531175423_51591.png)
+[![BCmllj.md.png](https://s1.ax1x.com/2020/10/21/BCmllj.md.png)](https://imgchr.com/i/BCmllj)
 
 ### 发明Https的动机
 
@@ -27,7 +27,7 @@ date: 2018-05-31 17:55:11
 
 这一节通过介绍Https协议的工作流程，来说明Https是如何达成自己的两个目的的。下图我画出了Https的工作流程，注意，这只是原理示意图，并不是详细的协议解析。
 
-![](/wp-content/uploads/2018/05/20180531175440_72649.png)
+[![BCmNkT.md.png](https://s1.ax1x.com/2020/10/21/BCmNkT.md.png)](https://imgchr.com/i/BCmNkT)
 
 可以看到工作流程，基本分为三个阶段：
 
@@ -42,7 +42,7 @@ date: 2018-05-31 17:55:11
 
 如果你是一个服务器开发者，想使用Https来保护自己的服务和用户数据安全，你可以按照以下流程来操作。
 
-![](/wp-content/uploads/2018/05/20180531175459_22886.png)
+[![BCmwp4.png](https://s1.ax1x.com/2020/10/21/BCmwp4.png)](https://imgchr.com/i/BCmwp4)
 
 ### 总结
 
