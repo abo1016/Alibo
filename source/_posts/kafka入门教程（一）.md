@@ -63,177 +63,51 @@ Kafka是分布式发布-订阅消息系统,它最初由 LinkedIn 公司开发，
 
 1、Kafka的Producer、Broker和Consumer之间采用的是一套自行设计基于TCP层的协议，根据业务需求定制，而非实现一套类似ProtocolBuffer的通用协议。 2、基本数据类型：（Kafka是基于Scala语言实现的，类型也是Scala中的数据类型） **定长数据类型**：int8,int16,int32和int64，对应到Java中就是byte, short, int和long。 **变长数据类型**：bytes和string。变长的数据类型由两部分组成，分别是一个有符号整数N(表示内容的长度)和N个字节的内容。其中，N为-1表示内容为null。bytes的长度由int32表示，string的长度由int16表示。 **数组**：数组由两部分组成，分别是一个由int32类型的数字表示的数组长度N和N个元素。 3、Kafka通讯的基本单位是Request/Response。 4、基本结构： RequestOrResponse => MessageSize(RequestMessage | ResponseMessage)
 
-col 1
-
-col 2
-
-col 3
-
-名称
-
-类型
-
-描术
-
-MessageSize
-
-int32
-
-表示RequestMessage或者ResponseMessage的长度
-
-RequestMessage
-
-—
-
-ResponseMessage
-
-—
+col 1 | col 2 | col 3
+--- | --- | ---
+名称 | 类型 | 描术
+MessageSize | int32 | 表示RequestMessage或者ResponseMessage的长度
+RequestMessage | — | 
+ResponseMessage | — | 
 
 5、通讯过程： 客户端打开与服务器端的Socket 往Socket写入一个int32的数字(数字表示这次发送的Request有多少字节) 服务器端先读出一个int32的整数从而获取这次Request的大小 然后读取对应字节数的数据从而得到Request的具体内容 服务器端处理了请求后，也用同样的方式来发送响应。 6、RequestMessage结构： RequestMessage => ApiKey ApiVersionCorrelationId ClientId Request
 
-col 1
-
-col 2
-
-col 3
-
-名称
-
-类型
-
-描术
-
-ApiKey
-
-int16
-
-表示这次请求的API编号
-
-ApiVersion
-
-int16
-
-表示请求的API的版本，有了版本后就可以做到后向兼容
-
-CorrelationId
-
-int32
-
-由客户端指定的一个数字唯一标示这次请求的id，服务器端在处理完请求后也会把同样的CorrelationId写到Response中，这样客户端就能把某个请求和响应对应起来了。
-
-ClientId
-
-string
-
-客户端指定的用来描述客户端的字符串，会被用来记录日志和监控，它唯一标示一个客户端。
-
-Request
-
-—
-
-Request的具体内容。
+col 1 | col 2 | col 3
+--- | --- | ---
+名称 | 类型 | 描术
+ApiKey | int16 | 表示这次请求的API编号
+ApiVersion | int16 | 表示请求的API的版本，有了版本后就可以做到后向兼容
+CorrelationId | int32 | 由客户端指定的一个数字唯一标示这次请求的id，服务器端在处理完请求后也会把同样的CorrelationId写到Response中，这样客户端就能把某个请求和响应对应起来了。
+ClientId | string | 客户端指定的用来描述客户端的字符串，会被用来记录日志和监控，它唯一标示一个客户端。
+Request | — | Request的具体内容。
 
 7、ResponseMessage结构： ResponseMessage => CorrelationId Response
 
-col 1
-
-col 2
-
-col 3
-
-名称
-
-类型
-
-描术
-
-CorrelationId
-
-int32
-
-对应Request的CorrelationId。
-
-Response
-
-—
-
-对应Request的Response，不同的Request的Response的字段是不一样的。
+col 1 | col 2 |col 3
+--- | --- | ---
+名称 | 类型 | 描术
+CorrelationId | int32 | 对应Request的CorrelationId。
+Response| — | 对应Request的Response，不同的Request的Response的字段是不一样的。
 
 Kafka采用是经典的Reactor(同步IO)模式，也就是1个Acceptor响应客户端的连接请求，N个Processor来读取数据，这种模式可以构建出高性能的服务器。 8、Message结构： Message:Producer生产的消息,键-值对 Message => Crc MagicByte Attributes KeyValue
 
-col 1
-
-col 2
-
-col 3
-
-名称
-
-类型
-
-描术
-
-CRC
-
-int32
-
-表示这条消息(不包括CRC字段本身)的校验码。
-
-MagicByte
-
-int8
-
-表示消息格式的版本，用来做后向兼容，目前值为0。
-
-Attributes
-
-int8
-
-表示这条消息的元数据，目前最低两位用来表示压缩格式。
-
-Key
-
-bytes
-
-表示这条消息的Key，可以为null。
-
-Value
-
-bytes
-
-表示这条消息的Value。Kafka支持消息嵌套，也就是把一条消息作为Value放到另外一条消息里面。
+col 1 | col 2 | col 3
+--- | --- | ---
+名称 | 类型 | 描术
+CRC | int32 | 表示这条消息(不包括CRC字段本身)的校验码。
+MagicByte | int8 | 表示消息格式的版本，用来做后向兼容，目前值为0。
+Attributes | int8 | 表示这条消息的元数据，目前最低两位用来表示压缩格式。
+Key | bytes | 表示这条消息的Key，可以为null。
+Value | bytes | 表示这条消息的Value。Kafka支持消息嵌套，也就是把一条消息作为Value放到另外一条消息里面。
 
 9、MessageSet结构： MessageSet:用来组合多条Message，它在每条Message的基础上加上了Offset和MessageSize MessageSet => \[Offset MessageSize Message\]
 
-col 1
-
-col 2
-
-col 3
-
-名称
-
-类型
-
-描术
-
-Offset
-
-int64
-
-它用来作为log中的序列号，Producer在生产消息的时候还不知道具体的值是什么，可以随便填个数字进去。
-
-MessageSize
-
-int32
-
-表示这条Message的大小。
-
-Message
-
-\-
-
-表示这条Message的具体内容，其格式见上一小节。
+col 1 | col 2 | col 3
+--- | --- | ---
+名称 | 类型 | 描术
+Offset | int64 | 它用来作为log中的序列号，Producer在生产消息的时候还不知道具体的值是什么，可以随便填个数字进去。
+MessageSize | int32 | 表示这条Message的大小。
+Message | - | 表示这条Message的具体内容，其格式见上一小节。
 
 10、 Request/Respone和Message/MessageSet的关系： Request/Response是通讯层的结构，和网络的7层模型对比的话，它类似于TCP层。 Message/MessageSet定义的是业务层的结构，类似于网络7层模型中的HTTP层。Message/MessageSet只是Request/Response的payload中的一种数据结构。 备注：Kafka的通讯协议中不含Schema，格式也比较简单，这样设计的好处是协议自身的Overhead小，再加上把多条Message放在一起做压缩，提高压缩比率，从而在网络上传输的数据量会少一些。
 
