@@ -84,7 +84,7 @@ POST api/wopi/files/{name}/contents
     get method
     ```
 
-    php code：
+php code：
     
 
 ``` php
