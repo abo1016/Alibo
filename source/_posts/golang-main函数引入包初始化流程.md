@@ -4,7 +4,7 @@ tags: [golang, 函数, init]
 id: '349'
 categories:
     - Golang
-date: 2018-12-04 16:25:03
+date: 2019-12-04 16:25:03
 ---
 
 #### main函数和init函数
