@@ -46,7 +46,3 @@ docker exec -d [container] [cmd]
 
 docker exec -d edison touch /home/haha
 ```
-
-*   更多
-<!-- more -->
-[菜鸟教程](http://www.runoob.com/docker/docker-command-manual.html "菜鸟教程")
